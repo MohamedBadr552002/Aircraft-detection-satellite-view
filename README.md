@@ -5,7 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![YOLOv11](https://img.shields.io/badge/YOLOv11-Ultralytics-00FFFF.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115.6-009688.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 **A state-of-the-art computer vision system for real-time aircraft detection in satellite and drone imagery using YOLOv11 deep learning model.**
 
@@ -30,7 +30,7 @@
 - [Testing](#-testing)
 - [API Documentation](#-api-documentation)
 - [Model Training](#-model-training)
-- [Contributing](#-contributing)
+
 
 ---
 
