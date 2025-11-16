@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  aircraft-detection:
+    build: .
+    container_name: aircraft-detection-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./runs/detect/train/weights:/app/runs/detect/train/weights
+      - ./runs/detect/production/outputs:/app/runs/detect/production/outputs
+      - ./uploads:/app/uploads
+    environment:
+      - APP_NAME=Aircraft Detection API
+      - VERSION=1.0.0
+      - API_SECRET_KEY=${API_SECRET_KEY}
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 8G
