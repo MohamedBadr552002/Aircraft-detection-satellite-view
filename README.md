@@ -10,7 +10,7 @@
 **A state-of-the-art computer vision system for real-time aircraft detection in satellite and drone imagery using YOLOv11 deep learning model.**
 
 
-![alt text](<Indira Gandhi International Airport Delhi India_annotated_demo.gif>)
+![alt text](<demo.gif>)
 
 [Features](#-features) • [Performance](#-performance) • [Installation](#-installation) • [Usage](#-usage) • [Docker](#-docker-deployment) • [Testing](#-testing)
 
